@@ -1,15 +1,15 @@
-##Peer Review
+**Peer Review**
 
-##Ashish Chouhan
+**Ashish Chouhan**
 
 
-##Docker Assignment
+**Docker Assignment**
 first created a custom docker file where he used airlfow as a base image and install psycopg in it
 then created a docker compose file where he mentioned build for his docker file
 then created a dag in dags folder and mounted it in the airlfow
 In his dag he used psycopg to create connection between postgres and airflow container for executing his tasks
 
-##Kubernetes Assignment
+**Kubernetes Assignment**
 Made a custom docker image for postgres with airflow installed in it. The container made from this image will be used as a database for airflow and also to store dag execution data in a table.
 published that custom docker image onto docker hub
 in the custom image he used a base postgres image and installed python in it and installed airflow in it
@@ -23,16 +23,16 @@ started the airlfow service
 accessed the web ui
 created the connection and trigerred the dag
 
-##Ankit kumar
+**Ankit kumar**
 
-Docker Assignment
+**Docker Assignment**
 Included all dependecies in docker-compose.yaml file
 created connection with postgres from airlfow web ui
 imported required module
 Created dag with all required parameter
 Created CREATE_TABLE TASK with using postgresOpreator
 
-Kubernetes Assignment
+**Kubernetes Assignment**
 installed minikube to make a kubernetes cluster.
 with the help of postgres-deployment.yaml file, created the pod containing postgres container
 run below command to initialise the database and make a user.
